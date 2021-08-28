@@ -32,3 +32,34 @@
         sec_cont.classList.toggle('p-fix')
 
     });
+// ***********************************************************************************************
+// ***********************************************************************************************
+// ***********************************************************************************************
+
+const counter = document.querySelectorAll('.num_inc');
+const start = () =>{
+counter.forEach((counter) => {
+    counter.innerHTML = 0;
+    const updateCount = () =>{
+        const targetCount = +counter.getAttribute('data-target');
+
+        const startingCount = Number(counter.innerHTML);
+        const incr = targetCount / 100;
+
+        console.log(incr)
+
+        if(startingCount < targetCount){
+            counter.innerHTML = `${Math.round(startingCount + incr)}`
+            setTimeout(updateCount,10);
+        }
+        else{
+            counter.innerHTML = targetCount;
+        }
+    }
+    updateCount();
+});
+}
+
+window.addEventListener('load',()=>{
+    setTimeout(start,1000)
+});
