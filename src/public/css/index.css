@@ -472,4 +472,94 @@
     /* **************************************************************************************************** */
     /* **************************************************************************************************** */
     /* **************************************************************************************************** */
+        #sec_04{
+            display: flex;
+            justify-content: center;
+            background: rgba(238, 237, 237, 0.678);
+            padding-top: 5rem;
+            padding-bottom: 5rem;
+        }
+        #sec_04M{
+            flex: 1;
+            padding: 5rem;
+            max-width: 1000px;
+            min-width: 280px;
+            background: navajowhite;
+            /* display: flex;
+
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center; */
+        }
+        #sec_04Mcard{
+            flex: 1;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        ._2div_card{
+            padding: 30px;
+            cursor: pointer;
+            width: 280px;
+            display: flex;
+            flex-direction: column;
+            box-sizing: border-box;
+            justify-content: center;
+            text-align: center;
+            background: #fff;
+            border: 2px solid rgba(255, 255, 255, 0);
+            outline: none;
+            box-shadow: 5px 10px 18px #888888;
+            margin: 1.3rem;
+        }
+        ._2dcard_01 .fas{   font-size: 3rem;}
+        .sec_04H_p_01   {   font-size: 4rem;}
+        .sec_04H_p_02   {   font-size: 2.5rem;}
+        ._2dcard_02_p_01{   font-size: 3rem;}
+        ._2dcard_02_p_02{   font-size: 1.5rem;}
+        @media (max-width:506px) {
+            #sec_04Mcard{
+                flex-direction: column;
+            }
+            #_fotrM{
+                flex-direction: column;
+            }
+            #sec_04M{
+                padding-right: 1px;
+                padding-left: 1px;
+            }
+        }
+        @media (max-width:280px) {
+            html{
+                font-size: 30%;
+            }
+            ._2div_card{
+                margin: 0%;
+                /* min-width: 200px; */
+                
+            }
+            #sec_04Mcard{padding: 0%;}
+            #sec_04M{
+                padding: 0%;
+            }
+        }
+         /* **************************************************************************************************** */
+    /* **************************************************************************************************** */
+    /* **************************************************************************************************** */
+        #fotr{  display: flex; justify-content: center; padding-top: 2.5rem; padding-bottom: 2.5rem; background: black;}
+        #_fotrM{flex: 1;display: flex; max-width: 1000px; padding-top: 2.5rem; padding-bottom: 2.5rem; line-height: 3rem;}
+        #_fotrM_cont_01{margin: 1.3rem; flex: 1; padding: 1.3rem; }
+        #_fotrM_cont_02{margin: 1.3rem; flex: 1; padding: 1.3rem;}
+        #_fotrM_cont_03{margin: 1.3rem; flex: 1; padding: 1.3rem;}
+        #_fotrM_cont_02-sub{flex: 1; display: flex; flex-direction: row;}
+        ._fotrM_cont_02-sub_cls{flex: 1;}
+        ._fotr_p-head{ font-size: 2rem; font-weight: 600;color: rgb(255, 255, 255);}
+        ._fotr_p-body{ font-size: 1.5rem; font-weight: 600;color: rgb(52, 58, 64);}
+        #_fotrM_cont_02-sub li,#_fotrM_cont_02-sub a { text-decoration: none;list-style: none;color: rgb(52, 58, 64);}
+        #copyrights{text-align: center; padding: 2rem;background: rgb(126, 126, 126);}
+        .copyrights{font-size: 1.5rem; font-weight: 600;color: rgb(52, 58, 64);}
+    /* **************************************************************************************************** */
+    /* **************************************************************************************************** */
+    /* **************************************************************************************************** */
 
