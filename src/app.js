@@ -16,5 +16,8 @@ hbs.registerPartials(path_partial);
 app.get('/',(req,res)=>{
     res.render('index');
 })
+app.get('*',(req,res)=>{
+    res.send('404!PAGE NOT FOUND. SORRY!');
+})
 app.listen(port,()=>console.log(`app is listening to port ${port}`));
 
