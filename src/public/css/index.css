@@ -20,9 +20,6 @@
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
-            /* font-family: 'Lobster','Lobster Two', cursive; */
-            /* font-family: 'Lobster','Lobster Two', cursive; */
-            /* font-family: Vidaloka","serif"; */
         }
         #sec-cont{
             height: 100%;
@@ -367,7 +364,7 @@ min-height: 10px;
         stroke-dasharray: 440;
         stroke-dashoffset:440;
         stroke-linecap: round ;
-        animation: anim 3.4s linear 3s forwards;
+        animation: anim 3.4s linear 6s forwards;
         /* animation: anim 3.5s linear forwards; */
         box-shadow: 6px 6px 10px -1px rgb(79, 54, 54);
 

@@ -67,6 +67,6 @@ counter.forEach((counter) => {
 }
 
 window.addEventListener('load',()=>{
-    setTimeout(start,3700)
+    setTimeout(start,6700)
 });
 
