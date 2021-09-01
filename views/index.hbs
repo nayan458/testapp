@@ -1,6 +1,6 @@
 {{>head}}
 <body onload="ld_func_00()">
-    <div id="prLoad">
+    {{!-- <div id="prLoad">
         <section id="load">
             <div id="loadM">
                 <div id="loadW">
@@ -19,7 +19,8 @@
                 <p style="font-size: 3rem;font-weight: 700; color: #fff;text-align: center;">LOADING...</p>
             </div>
         </section>
-    </div>
+    </div> --}}
+    {{>preload}}
 
     <section id="fst-cont" data-aos="fade-in" data-aos-duration="90000">
         <div id="sec-cont">
@@ -39,10 +40,10 @@
             </nav>
             <div id="thir-cont">
                 <div id="thir-cont-sub_01">
-                    <p id="q_0" data-text="" data-aos="fade-up-right" data-aos-duration="4000">WELCOME TO <span id="_g"><br>G FORMULA</span></p>
+                    <p id="q_0" data-text="" data-aos="zoom-in" data-aos-duration="4000">WELCOME TO <span id="_g"><br>G FORMULA</span></p>
                         <br>
                         <br>
-                    <p id="q_0-sub" data-aos="fade-up-right" data-aos-duration="4000">A NEW PLATEFORM OF NORTH EAST INDIA BUILT FOR BUILDING YOU THE WAY TO SUCCESS</p>
+                    <p id="q_0-sub" data-aos="flip-right" data-aos-duration="4000">A NEW PLATEFORM OF NORTH EAST INDIA BUILT FOR BUILDING YOU THE WAY TO SUCCESS</p>
                         <br>
                         <br>
                         <br>
@@ -58,6 +59,9 @@
         <div id="sec_02-sub">
         <div id="sec_02M">
             <div id="sec_02-in">
+                <div id="sec_02-in-sub_00">
+                    <p>OUR ACHIVEMENTS</p>
+                </div>
                <div class="sec_02-flx" id="sec_02-in-sub_01"> 
 
                     <ul class="sec_02-flex">
@@ -172,14 +176,15 @@
     <svg style="position: absolute; overflow-x: hidden !important; height:0px !important; width:0% !important;">
         <defs>
             <linearGradient id="GradientColor">
-               <stop offset="0%" stop-color="#2cff02b7"/>
-               <stop offset="100%" stop-color="#2cff02b7"/>
+               <stop offset="0%" stop-color="#0f5757"/>
+               <stop offset="100%" stop-color="#166a58"/>
             </linearGradient>
          </defs>
     </svg>
     {{!-- ---------------------------------------------------------------------------------- --}}
     {{!-- ---------------------------------------------------------------------------------- --}}
     {{!-- ---------------------------------------------------------------------------------- --}}
+    
     <section id="services" data-aos="fade-up" data-aos-duration="4000">
 
         <div id="service-head">
@@ -189,10 +194,10 @@
         </div>
         <br>
         <div id="serv_01">
-            <div class="serv_01" id="serv_01_00" data-aos="fade-up" data-aos-duration="70000"><p><i class="fas fa-city"></i></p><br><p class="serv_01-head"> Amazing Local Places</p> <br><p class="serv_01-p">At vero eos et accusamus et iusto odio <br>dignissimos ducimus qui blanditiis <br>praesentium voluptatum.</p></div>
-            <div class="serv_01" id="serv_01_01" data-aos="fade-up" data-aos-duration="70000"><p><i class="fas fa-city"></i><br><br><p class="serv_01-head"> Amazing Local Places</p> <br><p class="serv_01-p">At vero eos et accusamus et iusto odio <br>dignissimos ducimus qui blanditiis <br>praesentium voluptatum.</p></div>
-            <div class="serv_01" id="serv_01_02" data-aos="fade-up" data-aos-duration="70000"><p><i class="fas fa-city"></i><br><br><p class="serv_01-head"> Amazing Local Places</p> <br><p class="serv_01-p">At vero eos et accusamus et iusto odio <br>dignissimos ducimus qui blanditiis <br>praesentium voluptatum.</p></div>
-            <div class="serv_01" id="serv_01_03" data-aos="fade-up" data-aos-duration="70000"><p><i class="fas fa-city"></i><br><br><p class="serv_01-head"> Amazing Local Places</p> <br><p class="serv_01-p">At vero eos et accusamus et iusto odio <br>dignissimos ducimus qui blanditiis <br>praesentium voluptatum.</p></div>
+            <div class="serv_01" id="serv_01_00" data-aos="fade" data-aos-duration="70000"><p><i class="fas fa-city"></i></p><br><p class="serv_01-head"> Amazing Local Places</p> <br><p class="serv_01-p">At vero eos et accusamus et iusto odio <br>dignissimos ducimus qui blanditiis <br>praesentium voluptatum.</p></div>
+            <div class="serv_01" id="serv_01_01" data-aos="fade" data-aos-duration="70000"><p><i class="fas fa-city"></i><br><br><p class="serv_01-head"> Amazing Local Places</p> <br><p class="serv_01-p">At vero eos et accusamus et iusto odio <br>dignissimos ducimus qui blanditiis <br>praesentium voluptatum.</p></div>
+            <div class="serv_01" id="serv_01_02" data-aos="fade" data-aos-duration="70000"><p><i class="fas fa-city"></i><br><br><p class="serv_01-head"> Amazing Local Places</p> <br><p class="serv_01-p">At vero eos et accusamus et iusto odio <br>dignissimos ducimus qui blanditiis <br>praesentium voluptatum.</p></div>
+            <div class="serv_01" id="serv_01_03" data-aos="fade" data-aos-duration="70000"><p><i class="fas fa-city"></i><br><br><p class="serv_01-head"> Amazing Local Places</p> <br><p class="serv_01-p">At vero eos et accusamus et iusto odio <br>dignissimos ducimus qui blanditiis <br>praesentium voluptatum.</p></div>
         </div>
     </section>
     <section id="sec_03" data-aos="fade-up-right" data-aos-duration="4000">
@@ -216,12 +221,12 @@
     <section id="sec_04" data-aos="fade-up" data-aos-duration="4000">
         <section id="sec_04M">
             <section id="sec_04H">
-                <p class="sec_04H_p_01"  data-aos="fade-up-right" data-aos-duration="4000"><span class="px2"></span> Explore Our Categories</p>
-                <p class="sec_04H_p_02"  data-aos="fade-up-right" data-aos-duration="4000"><span class="px2"></span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non, beatae!</p>
+                <p class="sec_04H_p_01 of-hidden"  data-aos="fade" data-aos-duration="4000"><span class="px2"></span> Explore Our Categories</p>
+                <p class="sec_04H_p_02 of-hidden"  data-aos="fade" data-aos-duration="4000"><span class="px2"></span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non, beatae!</p>
              </section>
              <br>
              <section id="sec_04Mcard">
-                <div class="_2div_card"  data-aos="fade-up-right" data-aos-duration="4000">
+                <div class="_2div_card"  data-aos="flip-right" data-aos-duration="4000">
                     <div class="_2dcard_01"><i class="fas fa-user-tie"></i></div>
                     <div class="_2dcard_02">
                         <p class="_2dcard_02_p_01">Squadhelp </p>
@@ -229,7 +234,7 @@
                        <p class="_2dcard_02_p_02">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</p>
                     </div>
                 </div>
-                <div class="_2div_card"  data-aos="fade-up" data-aos-duration="4000">
+                <div class="_2div_card"  data-aos="flip-up" data-aos-duration="4000">
                     <div class="_2dcard_01"><i class="fas fa-user-tie"></i></div>
                     <div class="_2dcard_02">
                         <p class="_2dcard_02_p_01">Squadhelp </p>
@@ -237,7 +242,7 @@
                        <p class="_2dcard_02_p_02">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</p>
                     </div>
                 </div>
-                <div class="_2div_card"  data-aos="fade-up" data-aos-duration="4000">
+                <div class="_2div_card"  data-aos="fade-left" data-aos-duration="4000">
                     <div class="_2dcard_01"><i class="fas fa-user-tie"></i></div>
                     <div class="_2dcard_02">
                         <p class="_2dcard_02_p_01">Squadhelp </p>
@@ -245,7 +250,7 @@
                        <p class="_2dcard_02_p_02">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</p>
                     </div>
                 </div>
-                <div class="_2div_card"  data-aos="fade-up" data-aos-duration="4000">
+                <div class="_2div_card"  data-aos="fade-right" data-aos-duration="4000">
                     <div class="_2dcard_01"><i class="fas fa-user-tie"></i></div>
                     <div class="_2dcard_02">
                         <p class="_2dcard_02_p_01">Squadhelp </p>
