@@ -70,3 +70,10 @@ window.addEventListener('load',()=>{
     setTimeout(start,6700)
 });
 
+const nav_ul = document.getElementById('nav_ul-sub_02');
+    const nav_bar = document.getElementById('navs');
+    const nav_menu_btn = document.getElementById('nav-menu-btnn');
+    nav_menu_btn.addEventListener('click',()=>{
+        nav_ul.classList.toggle('dsply-block');
+        nav_bar.classList.toggle('navs_men_dis');
+    });
