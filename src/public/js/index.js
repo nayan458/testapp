@@ -14,30 +14,7 @@
 // ***********************************************************************************************
 // ***********************************************************************************************
 // ***********************************************************************************************
-    const nav_min = document.getElementById('main');
-    const main_li = document.getElementsByClassName('main-sub-li');
-    // const gts = document.getElementById('gts');
-    const nav_handel = document.getElementById('nav-handel');
-    // const main_li_01 = document.getElementById('main-sub-li_01') 
-    const main_li_02 = document.getElementById('main-sub-li_02') 
-    const main_li_03 = document.getElementById('main-sub-li_03') 
-    const main_li_04 = document.getElementById('main-sub-li_04') 
-    const main_li_05 = document.getElementById('main-sub-li_05') 
-    const main_li_06 = document.getElementById('main-sub-li_06') 
-    const sec_cont = document.getElementById('sec-cont');
-    let i = 0;
-    nav_handel.addEventListener('click',()=>{
-        nav_min.classList.toggle('main-active');
-        // gts.classList.toggle('dsply-non'); 
-        // main_li_01.classList.toggle('active');
-        main_li_02.classList.toggle('active');
-        main_li_03.classList.toggle('active');
-        main_li_04.classList.toggle('active');
-        main_li_05.classList.toggle('active');
-        main_li_06.classList.toggle('active');    
-        sec_cont.classList.toggle('p-fix')
-
-    });
+    // Deleted
 // ***********************************************************************************************
 // ***********************************************************************************************
 // ***********************************************************************************************
@@ -70,10 +47,15 @@ window.addEventListener('load',()=>{
     setTimeout(start,6700)
 });
 
-const nav_ul = document.getElementById('nav_ul-sub_02');
-    const nav_bar = document.getElementById('navs');
-    const nav_menu_btn = document.getElementById('nav-menu-btnn');
-    nav_menu_btn.addEventListener('click',()=>{
-        nav_ul.classList.toggle('dsply-block');
-        nav_bar.classList.toggle('navs_men_dis');
-    });
+// ***********************************************************************************************
+// ***********************************************************************************************
+// ***********************************************************************************************
+const nav_menu = document.getElementById('nav-mobM')
+const nav_tog_btn = document.getElementById('nav-hand-barger');
+nav_tog_btn.addEventListener('click',()=>{
+    nav_menu.classList.add('disp-blc');
+});
+const cncl = document.getElementById('cncl');
+cncl.addEventListener('click',()=>{
+    nav_menu.classList.remove('disp-blc')
+})
