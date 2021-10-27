@@ -16,6 +16,10 @@ hbs.registerPartials(path_partial);
 app.get('/',(req,res)=>{
     res.render('index');
 })
+
+app.get('/about',(req,res)=>{
+    res.render('about');
+})
 app.get('*',(req,res)=>{
     res.send('404!PAGE NOT FOUND. SORRY!');
 })
